@@ -1,0 +1,14 @@
+.editorconfig
+使用 .editorconfig 文件来统一代码风格  === vue+eslint
+需要安装插件  prettier -D 和vs插件  EditorConfig for VS Code
+
+prettier格式化文件
+
+
+
+
+配置别名 craco.config  //需要修改启动项 改为  craco start
+   "baseUrl": ".",
+    "paths":{
+      "@/*":["./src/*"]
+    }
