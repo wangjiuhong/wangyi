@@ -1,7 +1,12 @@
 import React from "react";
-
-function App() {
-  return <>app网易复刻</>;
+import routes  from "./router";
+import { useRoutes } from "react-router-dom";
+const App = ()=> {
+  return (
+    <div>
+      {useRoutes(routes)}
+    </div>
+  );
 }
 
 export default App;
